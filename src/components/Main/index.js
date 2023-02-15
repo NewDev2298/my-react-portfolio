@@ -1,9 +1,11 @@
 import About from "../About";
 
 
-function Main(){
+const Main = () => {
     return(
-        <About/>
+        <main>
+            <About/>
+        </main>
     )
 }
 

@@ -1,6 +1,6 @@
 
 
-function About(){
+const About = () => {
     return(
         <div>
             <img src="placeholder.com/200" alt="placeholder image"/> 

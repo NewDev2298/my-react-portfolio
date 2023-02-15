@@ -1,6 +1,6 @@
 
 
-function Header(){
+const Header = () => {
     return(
         <header>
             <h1>Terrance</h1>
