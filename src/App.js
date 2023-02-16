@@ -5,6 +5,8 @@ import Main from './components/Main';
 import Footer from './components/Footer';
 import Portfolio from './components/Portfolio';
 
+import "bootswatch/dist/sandstone/bootstrap.min.css";
+
 function App() {
   return (
     <>

@@ -3,9 +3,9 @@
 const Header = ({ currentPage, changePage }) => {
     return(
         <header>
-            <h1>Terrance</h1>
-            <nav>
-                <ul className="nav nav-tabs">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <h3 class="navbar-brand">Terrance Smith</h3>
+                <ul className="nav">
                     <li className="nav-item">
                         <a href="#about"
                             onClick={() => changePage('About')}
