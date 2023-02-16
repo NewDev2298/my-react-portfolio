@@ -6,7 +6,7 @@ const Header = ({ currentPage, changePage }) => {
             <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
             <h3 class="navbar-brand">Terrance Smith</h3>
                 <ul className="nav">
-                    <li className="nav-item">
+                    <li className="nav-item nav-link">
                         <a href="#about"
                             onClick={() => changePage('About')}
                             className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
