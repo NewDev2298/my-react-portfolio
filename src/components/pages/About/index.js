@@ -1,10 +1,10 @@
 import React from "react";
-
+import image from "../../../assets/images/terrance.jpeg"
 
 const About = () => {
     return(
         <div>
-            <img src="https://via.placeholder.com/200" alt=" Terrance Smith"/> 
+            <img src={image} alt=" Terrance Smith"/> 
             <section>
                 <p>
                     this is paragraphy about me
