@@ -1,10 +1,11 @@
+import React from "react";
 import Footer from "../../Footer"
 import Header from "../../Header"
 
 const Projects = () => {
     return(
         <>
-        <Header/>
+        
             <main>
             <h3>Portfolio</h3>
             <img src="https://via.placeholder.com/200" alt="placeholder image"/>    
