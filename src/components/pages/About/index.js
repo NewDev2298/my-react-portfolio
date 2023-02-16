@@ -1,9 +1,9 @@
-
+import React from "react";
 
 const About = () => {
     return(
         <div>
-            <img src="placeholder.com/200" alt="placeholder image"/> 
+            <img src="https://via.placeholder.com/200" alt="placeholder image"/> 
             <section>
                 <p>
                     this is paragraphy about me
