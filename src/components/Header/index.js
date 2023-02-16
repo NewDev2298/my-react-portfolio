@@ -9,6 +9,7 @@ const Header = () => {
                     <li><a href="#">About</a></li>
                     <li><a href="#">Portfolio</a></li>
                     <li><a href="#">Contact Me</a></li>
+                    <li><a href="#">Resume</a></li>
                 </ul>
             </nav>
         </header>
