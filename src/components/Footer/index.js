@@ -1,14 +1,33 @@
 
 
 const Footer = () => {
+
+    const test = {
+
+        candy: {
+            display: 'flex',
+            justifyContent: 'center',
+            backgroundColor: 'gray',
+            alignItems: 'center',
+            padding: '12px',
+            color: 'white',
+            fontWeight:'bold'
+        },
+
+        man: {
+            marginRight: '16px',
+            alignItems: 'center'
+
+        }
+
+    }
     return(
-        <footer>
-            <ul>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Portfolio</a></li>
+        <footer style={test.candy}>
+            {/* <ul style={test.man}>
                 <li><a href="#">Contact Me</a></li>
-            </ul>
-            <h4> Made with Love & React.</h4>
+            </ul> */}
+            <div> Made with 💚 and React.</div>
+            
         </footer>
     )
 }

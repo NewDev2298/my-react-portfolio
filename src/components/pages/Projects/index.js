@@ -9,21 +9,29 @@ const Projects = () => {
             display:'flex',
             flexWrap: 'wrap',
             justifyContent: 'space-around',
-            padding: '16px',
+            padding: '12px',
             alignItems: 'space-around',
-            height: '50vh'
+            height: '70vh',
+            // width: '76vw'
         },
 
         bell: {
             width: '300px',
             height: '300px'
+        },
+
+        grande: {
+            display: 'flex',
+            margin: '10px',
+            fontWeight: 'bold',
+            
         }
     }
 
     return (
         <div>
 
-            <h3>Portfolio</h3>
+            <h3 style={test.grande}>Portfolio</h3>
             <main style={test.taco}>
                 <img style={test.bell} src="https://via.placeholder.com/300" alt="placeholder image" />
                 <img style={test.bell}src="https://via.placeholder.com/300" alt="placeholder image" />

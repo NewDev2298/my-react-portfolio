@@ -1,5 +1,6 @@
 import React from "react";
 import image from "../../../assets/images/terrance.jpeg"
+import Footer from "../../Footer";
 
 const About = () => {
     return(
@@ -10,6 +11,7 @@ const About = () => {
                     this is paragraphy about me
                 </p>
             </section>
+            <Footer/>
         </div>
     )
 }
