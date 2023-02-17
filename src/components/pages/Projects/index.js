@@ -1,7 +1,11 @@
 import React from "react";
 import Footer from "../../Footer"
 import Header from "../../Header"
-import "./test.css"
+
+
+
+
+
 const Projects = () => {
 
     var test = {
