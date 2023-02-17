@@ -3,20 +3,36 @@ import Footer from "../../Footer"
 import Header from "../../Header"
 
 const Contact = () => {
-    return(
-        <>
-            <main>
-                <div className="">
 
-                    <input class="form-group col-3 " placeholder="Enter name"/>
-                    <div class="form-group col-3 ">
-                    <input type="email" class="form-control"  placeholder="Enter email"/>
-                    </div>
-                    <textarea class="form-group col-3" id="exampleTextarea" rows="3" placeholder="Enter message"/>
+    var test = {
+
+        burger: {
+            display:'flex',
+            height: '70vh',
+            justifyContent: 'center',
+            alignItems: 'space-around'
+
+        },
+
+        king: {
+            display: '',
+            alignItems: 'center'
+        }
+    }
+
+    return(
+        <div>
+
+            <main style={test.burger}>
+                <div style={test.king}>
+                    <input placeholder="Enter name"/>
+                    <input type="email" placeholder="Enter email"/>
+                    <textarea rows="3" placeholder="Enter message"/>
                 </div>
             </main>
         <Footer/>
-        </>
+        </div>
+        
     )
 }
 
